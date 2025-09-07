@@ -1,0 +1,720 @@
+/* Google Fonts - Enhanced for Indian aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Cinzel:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 37 36% 96%; /* #F7F3E9 - warm paper */
+  --foreground: 30 20% 15%; /* #332B24 - dark brown */
+  --muted: 35 25% 90%; /* #F0EAE2 - light beige */
+  --muted-foreground: 30 15% 40%; /* #6B5B50 */
+  --popover: 37 50% 98%; /* #FEFBF6 */
+  --popover-foreground: 30 20% 15%; /* #332B24 */
+  --card: 40 45% 98%; /* #FEFCF7 */
+  --card-foreground: 30 20% 15%; /* #332B24 */
+  --border: 35 20% 85%; /* #E0D5CC */
+  --input: 35 20% 85%; /* #E0D5CC */
+  --primary: 22 69% 50%; /* #D2691E - traditional terracotta */
+  --primary-foreground: 0 0% 100%; /* #FFFFFF */
+  --secondary: 45 60% 90%; /* #F4F0E8 */
+  --secondary-foreground: 30 20% 15%; /* #332B24 */
+  --accent: 39 100% 60%; /* #FF9F00 - vibrant saffron */
+  --accent-foreground: 0 0% 100%; /* #FFFFFF */
+  --destructive: 0 70% 50%; /* #DC2626 */
+  --destructive-foreground: 0 0% 100%; /* #FFFFFF */
+  --ring: 22 69% 50%; /* #D2691E */
+  --radius: 0.75rem;
+
+  /* Enhanced Indian craft colors */
+  --terracotta: 22 69% 50%; /* #D2691E - traditional clay */
+  --saffron: 39 100% 60%; /* #FF9F00 - sacred saffron */
+  --turmeric: 45 95% 55%; /* #F5D920 - turmeric yellow */
+  --henna: 15 60% 35%; /* #8B4513 - henna brown */
+  --indigo: 240 100% 25%; /* #000080 - traditional indigo */
+  --vermillion: 14 100% 50%; /* #FF4500 - vermillion red */
+  --peacock: 180 100% 25%; /* #008080 - peacock green */
+  --marigold: 40 100% 50%; /* #FFA500 - marigold orange */
+  --lotus: 330 100% 85%; /* #FFCCCB - lotus pink */
+  --sandalwood: 30 30% 70%; /* #D2B48C - sandalwood beige */
+  --ivory: 60 20% 95%; /* #F5F5DC - ivory white */
+  --copper: 30 60% 40%; /* #B87333 - copper bronze */
+  --golden: 45 100% 50%; /* #FFD700 - golden yellow */
+  --antique-gold: 43 74% 49%; /* #DAA520 - antique gold */
+  
+  /* Background variations */
+  --warm-cream: 37 36% 96%; /* #F7F3E9 */
+  --soft-beige: 35 25% 90%; /* #F0EAE2 */
+  --paper-texture: 40 30% 94%; /* #F2EDE6 */
+}
+
+.dark {
+  --background: 222 84% 5%; /* #0A0A0A */
+  --foreground: 0 0% 98%; /* #FAFAFA */
+  --muted: 217 33% 17%; /* #1F2937 */
+  --muted-foreground: 215 20% 65%; /* #9CA3AF */
+  --popover: 222 84% 5%; /* #0A0A0A */
+  --popover-foreground: 0 0% 98%; /* #FAFAFA */
+  --card: 222 84% 5%; /* #0A0A0A */
+  --card-foreground: 0 0% 98%; /* #FAFAFA */
+  --border: 217 33% 17%; /* #1F2937 */
+  --input: 217 33% 17%; /* #1F2937 */
+  --primary: 25 62% 47%; /* #D2691E - terracotta */
+  --primary-foreground: 0 0% 100%; /* #FFFFFF */
+  --secondary: 217 33% 17%; /* #1F2937 */
+  --secondary-foreground: 0 0% 98%; /* #FAFAFA */
+  --accent: 36 100% 58%; /* #FF9933 - saffron */
+  --accent-foreground: 0 0% 100%; /* #FFFFFF */
+  --destructive: 0 63% 31%; /* #7F1D1D */
+  --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+  --ring: 25 62% 47%; /* #D2691E - terracotta */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Traditional Indian color utilities */
+  .text-terracotta {
+    color: hsl(var(--terracotta));
+  }
+
+  .bg-terracotta {
+    background-color: hsl(var(--terracotta));
+  }
+
+  .border-terracotta {
+    border-color: hsl(var(--terracotta));
+  }
+
+  .text-saffron {
+    color: hsl(var(--saffron));
+  }
+
+  .bg-saffron {
+    background-color: hsl(var(--saffron));
+  }
+
+  .border-saffron {
+    border-color: hsl(var(--saffron));
+  }
+
+  .text-turmeric {
+    color: hsl(var(--turmeric));
+  }
+
+  .bg-turmeric {
+    background-color: hsl(var(--turmeric));
+  }
+
+  .text-henna {
+    color: hsl(var(--henna));
+  }
+
+  .bg-henna {
+    background-color: hsl(var(--henna));
+  }
+
+  .text-indigo {
+    color: hsl(var(--indigo));
+  }
+
+  .bg-indigo {
+    background-color: hsl(var(--indigo));
+  }
+
+  .text-vermillion {
+    color: hsl(var(--vermillion));
+  }
+
+  .bg-vermillion {
+    background-color: hsl(var(--vermillion));
+  }
+
+  .text-peacock {
+    color: hsl(var(--peacock));
+  }
+
+  .bg-peacock {
+    background-color: hsl(var(--peacock));
+  }
+
+  .text-marigold {
+    color: hsl(var(--marigold));
+  }
+
+  .bg-marigold {
+    background-color: hsl(var(--marigold));
+  }
+
+  .text-lotus {
+    color: hsl(var(--lotus));
+  }
+
+  .bg-lotus {
+    background-color: hsl(var(--lotus));
+  }
+
+  .text-sandalwood {
+    color: hsl(var(--sandalwood));
+  }
+
+  .bg-sandalwood {
+    background-color: hsl(var(--sandalwood));
+  }
+
+  .text-copper {
+    color: hsl(var(--copper));
+  }
+
+  .bg-copper {
+    background-color: hsl(var(--copper));
+  }
+
+  .text-golden {
+    color: hsl(var(--golden));
+  }
+
+  .bg-golden {
+    background-color: hsl(var(--golden));
+  }
+
+  .border-golden {
+    border-color: hsl(var(--golden));
+  }
+
+  .text-antique-gold {
+    color: hsl(var(--antique-gold));
+  }
+
+  .bg-antique-gold {
+    background-color: hsl(var(--antique-gold));
+  }
+
+  .border-antique-gold {
+    border-color: hsl(var(--antique-gold));
+  }
+
+  .bg-warm-cream {
+    background-color: hsl(var(--warm-cream));
+  }
+
+  .bg-soft-beige {
+    background-color: hsl(var(--soft-beige));
+  }
+
+  .bg-paper-texture {
+    background-color: hsl(var(--paper-texture));
+  }
+
+  /* Enhanced typography for Indian aesthetic */
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-serif {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* Text shadow utilities for better visibility */
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-shadow-md {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-crimson {
+    font-family: 'Crimson Text', serif;
+  }
+
+  .font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Indian-inspired decorative elements */
+  .mandala-border {
+    border-image: radial-gradient(circle, hsl(var(--saffron)), hsl(var(--terracotta))) 1;
+  }
+
+  .paisley-pattern {
+    background-image: radial-gradient(circle at 25% 25%, hsl(var(--saffron) / 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 75% 75%, hsl(var(--terracotta) / 0.1) 0%, transparent 50%);
+  }
+
+  .heritage-gradient {
+    background: linear-gradient(135deg, 
+      hsl(var(--saffron)) 0%, 
+      hsl(var(--marigold)) 25%, 
+      hsl(var(--terracotta)) 50%, 
+      hsl(var(--henna)) 75%, 
+      hsl(var(--copper)) 100%);
+  }
+
+  .traditional-shadow {
+    box-shadow: 0 4px 20px hsl(var(--henna) / 0.2), 
+                0 8px 40px hsl(var(--terracotta) / 0.1);
+  }
+
+  .craft-border {
+    border: 2px solid hsl(var(--terracotta));
+    border-radius: 0.5rem;
+    background: linear-gradient(45deg, 
+      hsl(var(--warm-cream)), 
+      hsl(var(--soft-beige)));
+  }
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Image zoom effect */
+.image-zoom {
+  transition: transform 0.3s ease;
+}
+
+.image-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth fade animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hover effects for buttons */
+.btn-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card hover effects */
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient backgrounds */
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom animations */
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bounce {
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate3d(0,0,0);
+  }
+  40%, 43% {
+    transform: translate3d(0,-15px,0);
+  }
+  70% {
+    transform: translate3d(0,-7px,0);
+  }
+  90% {
+    transform: translate3d(0,-2px,0);
+  }
+}
+
+/* Apply the warm cream background to the body by default with subtle pattern */
+body {
+  background-color: hsl(var(--warm-cream));
+  background-image: 
+    radial-gradient(circle at 20% 50%, hsl(var(--saffron) / 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, hsl(var(--terracotta) / 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, hsl(var(--turmeric) / 0.02) 0%, transparent 50%);
+  background-size: 400px 400px, 350px 350px, 300px 300px;
+  background-position: 0 0, 40px 60px, 130px 270px;
+}
+
+/* Traditional Indian decorative patterns */
+.ethnic-pattern {
+  background-image: 
+    repeating-linear-gradient(45deg, transparent, transparent 2px, hsl(var(--terracotta) / 0.05) 2px, hsl(var(--terracotta) / 0.05) 4px),
+    repeating-linear-gradient(-45deg, transparent, transparent 2px, hsl(var(--saffron) / 0.05) 2px, hsl(var(--saffron) / 0.05) 4px);
+}
+
+.mandala-overlay {
+  position: relative;
+}
+
+.mandala-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at center, transparent 30%, hsl(var(--saffron) / 0.1) 31%, hsl(var(--saffron) / 0.1) 32%, transparent 33%),
+    radial-gradient(circle at center, transparent 50%, hsl(var(--terracotta) / 0.05) 51%, hsl(var(--terracotta) / 0.05) 52%, transparent 53%);
+  pointer-events: none;
+}
+
+/* Fullscreen modal styles */
+[data-state="open"] .fullscreen-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+/* Hide scrollbar for fullscreen thumbnail navigation */
+.fullscreen-thumbnails {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.fullscreen-thumbnails::-webkit-scrollbar {
+  display: none;
+}
+
+/* Enhanced scrollbar hiding for horizontal scroll */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.6s ease-out;
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.8s ease-out;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #8B4513, #D2691E, #CD853F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom border styles */
+.border-3 {
+  border-width: 3px;
+}
+
+/* Responsive fullscreen image container */
+.fullscreen-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .fullscreen-image-container {
+    padding: 2rem;
+  }
+}
+
+/* Prevent image overflow in fullscreen */
+.fullscreen-image {
+  max-width: 95vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .fullscreen-image {
+    max-width: 90vw;
+    max-height: 85vh;
+  }
+}
+
+/* Zoom lens styles */
+.zoom-lens {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(1px);
+}
+
+/* Custom cursor for zoom area */
+.cursor-zoom {
+  cursor: zoom-in;
+}
+
+.cursor-zoom:hover {
+  cursor: crosshair;
+}
+
+/* Smooth zoom transition */
+.zoom-image {
+  transition: transform 0.1s ease-out;
+  transform-origin: center;
+  will-change: transform;
+}
+
+/* Disable text selection during zoom */
+.zoom-container * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 640px) {
+  /* Ensure minimum touch target size */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Improve button spacing on mobile */
+  .mobile-button-spacing {
+    margin: 0.25rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  /* Better text readability on mobile */
+  .mobile-text {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  /* Reduce margins for mobile */
+  .mobile-spacing {
+    margin: 0.5rem 0;
+  }
+  
+  /* Hide elements that take up too much space on mobile */
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 375px) {
+  /* Further reduce text sizes for very small screens */
+  .text-xs { font-size: 0.7rem; }
+  .text-sm { font-size: 0.8rem; }
+  .text-base { font-size: 0.9rem; }
+  
+  /* Reduce padding */
+  .px-4 { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .py-4 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+}
+
+/* Improve scroll performance on mobile */
+.mobile-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Better form inputs on mobile */
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 0.75rem;
+  }
+}

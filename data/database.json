@@ -1,0 +1,314 @@
+{
+  "categories": [
+    {
+      "name": "Premium Makhana Varieties",
+      "slug": "premium-makhana-varieties",
+      "description": "This category includes premium quality makhana varieties that are carefully processed and graded. These are sourced from the finest farms and processed using traditional methods to preserve natural goodness.",
+      "thumbnail": "/images/categories/2025/09/07/Makhana-for-Weight-Loss-Benefits-Weight-Loss-Recipes_1757222609129-738911355.webp",
+      "id": 7
+    },
+    {
+      "name": "Organic Makhana",
+      "slug": "organic-makhana",
+      "description": "These are organically grown makhana varieties, free from pesticides and chemicals. They are naturally processed to maintain their nutritional value and crisp texture.",
+      "thumbnail": "/images/categories/2025/09/07/Gemini_Generated_Image_x6iaonx6iaonx6ia_1757226155495-719756254.png",
+      "id": 8
+    },
+    {
+      "name": "Flavored Makhana",
+      "slug": "flavored-makhana",
+      "description": "Delicious flavored makhana varieties with unique tastes. These are seasoned with natural spices and herbs to create exciting flavors while maintaining nutritional benefits.",
+      "thumbnail": "/images/categories/2025/09/07/Gemini_Generated_Image_b8y4u8b8y4u8b8y4_1757226182055-170337115.png",
+      "id": 9
+    },
+    {
+      "name": "Seasoned Makhana",
+      "slug": "seasoned-makhana",
+      "description": "This category includes expertly seasoned makhana with traditional Indian spices. Rich in flavor and nutrients, they provide a perfect healthy snacking experience.",
+      "thumbnail": "/images/categories/2025/09/07/Gemini_Generated_Image_f8556zf8556zf855__1__1757226216288-580732627.png",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "name": "Premium Roasted Makhana Pack",
+      "description": "Add a splash of color and culture to your living space with this beautifully handcrafted Elephant-Shaped Wooden Stool. Intricately designed and hand-painted by skilled artisans, this piece showcases traditional Indian folk art with vibrant patterns and motifs.\n\nThe stool’s structure takes the charming form of an elephant, symbolizing strength, wisdom, and prosperity in Indian culture. Whether used as a side table, a decorative accent, or a seat for kids, it stands out as a unique, multifunctional decor item.",
+      "price": "1000",
+      "categoryId": 9,
+      "stock": 10,
+      "images": [
+        "/images/products/2025/09/07/fe1be82bcea5974b50a7c44f216bba3d_1757226263424-308025866.jpg"
+      ],
+      "sku": "HAND001",
+      "featured": true,
+      "features": [
+        "naturally processed"
+      ],
+      "id": 10,
+      "createdAt": "2025-05-29T21:46:13.377Z"
+    },
+    {
+      "name": "premium makhana",
+      "description": "Delight in the charm of India's vibrant folk art through our collection of Traditional Wooden Toys. Handcrafted by skilled artisans using sustainable wood and painted with natural, non-toxic colors, these toys are not only safe and fun but also serve as beautiful cultural artifacts.\n\nInspired by rural life, mythological stories, and everyday transport, these toys are designed to spark imagination, storytelling, and nostalgia—making them loved by children, collectors, and decor enthusiasts alike.",
+      "price": "2000",
+      "categoryId": 8,
+      "stock": 20,
+      "images": [
+        "/images/products/2025/09/07/Gemini_Generated_Image_x6iaonx6iaonx6ia_1757226293561-62180934.png",
+        "/images/products/2025/09/07/Gemini_Generated_Image_b8y4u8b8y4u8b8y4_1757226301665-379971186.png"
+      ],
+      "sku": "TRAD001",
+      "featured": true,
+      "features": [
+        "new quality"
+      ],
+      "id": 11,
+      "createdAt": "2025-05-29T21:52:51.598Z"
+    },
+    {
+      "name": "makhana gold",
+      "description": "makhana premium quality\n",
+      "price": "3000",
+      "categoryId": 11,
+      "stock": 50,
+      "images": [
+        "/images/products/2025/09/07/roastedmakhana_step8_1757226357692-432017565.webp"
+      ],
+      "sku": "KITC001",
+      "featured": true,
+      "features": [
+        "makhana"
+      ],
+      "id": 13,
+      "createdAt": "2025-05-29T22:05:15.358Z"
+    },
+    {
+      "name": "makhana",
+      "description": "makhana",
+      "price": "1200",
+      "categoryId": 11,
+      "stock": 5,
+      "images": [
+        "/images/products/2025/09/07/phool-makhana-2_1757226436587-345006984.jpeg"
+      ],
+      "sku": "TRAD002",
+      "featured": true,
+      "features": [],
+      "id": 14,
+      "createdAt": "2025-05-30T04:56:07.808Z"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 5,
+      "sessionId": "session-1748569966725-agwdjuylg",
+      "productId": 11,
+      "quantity": 1,
+      "createdAt": "2025-05-30T02:02:51.301Z"
+    },
+    {
+      "id": 6,
+      "sessionId": "session-1748576800946-oi9mwvjpl",
+      "productId": 11,
+      "quantity": 1,
+      "createdAt": "2025-05-30T03:57:45.768Z"
+    },
+    {
+      "id": 7,
+      "sessionId": "session-1748576584578-mx4pplj94",
+      "productId": 10,
+      "quantity": 1,
+      "createdAt": "2025-05-30T04:53:30.458Z"
+    },
+    {
+      "id": 8,
+      "sessionId": "session-1757221831262-5nr7kji02",
+      "productId": 12,
+      "quantity": 1,
+      "createdAt": "2025-09-07T05:54:12.634Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 7,
+      "userId": 1,
+      "customerName": "aman",
+      "customerEmail": "aman@gmail.com",
+      "customerPhone": "9650982544",
+      "shippingAddress": "faridabad",
+      "total": "2360",
+      "status": "cancelled",
+      "items": "[{\"productId\":10,\"quantity\":2,\"price\":\"1000\",\"name\":\"Elephant Shaped Wooden Stool\",\"sku\":\"HAND001\"}]",
+      "createdAt": "2025-05-29T22:43:07.009Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "customerName": "aman",
+      "customerEmail": "aman@gmail.com",
+      "customerPhone": "9650982844",
+      "shippingAddress": "faridabad",
+      "total": "1180",
+      "status": "delivered",
+      "trackingNumber": "TRKMB9Z9F23JPT3",
+      "items": "[{\"productId\":10,\"quantity\":1,\"price\":\"1000\",\"name\":\"Elephant Shaped Wooden Stool\",\"sku\":\"HAND001\"}]",
+      "createdAt": "2025-05-29T23:00:37.371Z"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "key": "heroTitle",
+      "value": "Authentic",
+      "type": "text",
+      "description": "Homepage heroTitle setting",
+      "createdAt": "2025-05-29T21:24:37.098Z",
+      "updatedAt": "2025-05-29T21:24:37.098Z"
+    },
+    {
+      "id": 2,
+      "key": "heroDescription",
+      "value": "Discover premium quality makhana sourced from the finest farms across India. Each batch is carefully processed using traditional methods to preserve natural goodness and authentic taste.",
+      "type": "text",
+      "description": "Homepage heroDescription setting",
+      "createdAt": "2025-05-29T21:24:37.100Z",
+      "updatedAt": "2025-05-29T21:24:37.100Z"
+    },
+    {
+      "id": 3,
+      "key": "heroSubtitle",
+      "value": "Indian Arts",
+      "type": "text",
+      "description": "Homepage heroSubtitle setting",
+      "createdAt": "2025-05-29T21:24:37.101Z",
+      "updatedAt": "2025-05-29T21:24:37.101Z"
+    },
+    {
+      "id": 4,
+      "key": "heroImage",
+      "value": "/images/hero-banner-greek.jpg",
+      "type": "image",
+      "description": "Homepage heroImage setting",
+      "createdAt": "2025-05-29T21:24:37.102Z",
+      "updatedAt": "2025-05-29T21:24:37.102Z"
+    },
+    {
+      "id": 5,
+      "key": "heroButtonText",
+      "value": "Explore Collection",
+      "type": "text",
+      "description": "Homepage heroButtonText setting",
+      "createdAt": "2025-05-29T21:24:37.104Z",
+      "updatedAt": "2025-05-29T21:24:37.104Z"
+    },
+    {
+      "id": 6,
+      "key": "heroButtonSecondaryText",
+      "value": "Our Story",
+      "type": "text",
+      "description": "Homepage heroButtonSecondaryText setting",
+      "createdAt": "2025-05-29T21:24:37.105Z",
+      "updatedAt": "2025-05-29T21:24:37.105Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "aman",
+      "email": "aman@gmail.com",
+      "passwordHash": "$2b$10$ctPoqAWnWfaU/dmT3XnrVOFMWr8BqHRDMjnWvFwjMbzMJwN5lIuTm",
+      "createdAt": "2025-05-29T22:30:34.176Z",
+      "wishlist": [
+        10
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "sessionId": "0zyxiomb9y9u78",
+      "userId": 1,
+      "expiresAt": "2025-06-28T22:32:57.380Z"
+    },
+    {
+      "sessionId": "scpbvtmb9yiuw4",
+      "userId": 1,
+      "expiresAt": "2025-06-28T22:39:58.180Z"
+    },
+    {
+      "sessionId": "zqreemb9yls12",
+      "userId": 1,
+      "expiresAt": "2025-06-28T22:42:14.438Z"
+    },
+    {
+      "sessionId": "acrx48mb9ympzl",
+      "userId": 1,
+      "expiresAt": "2025-06-28T22:42:58.449Z"
+    },
+    {
+      "sessionId": "570pubmb9z112l",
+      "userId": 1,
+      "expiresAt": "2025-06-28T22:54:05.997Z"
+    },
+    {
+      "sessionId": "b4f19wmba12fl5",
+      "userId": 1,
+      "expiresAt": "2025-06-28T23:51:10.697Z"
+    },
+    {
+      "sessionId": "113tgomba1ye52",
+      "userId": 1,
+      "expiresAt": "2025-06-29T00:16:01.814Z"
+    },
+    {
+      "sessionId": "pet4l8mba4ze5u",
+      "userId": 1,
+      "expiresAt": "2025-06-29T01:40:47.346Z"
+    },
+    {
+      "sessionId": "so14ycmba5ehwq",
+      "userId": 1,
+      "expiresAt": "2025-06-29T01:52:32.042Z"
+    },
+    {
+      "sessionId": "ijpv1tmba5ez37",
+      "userId": 1,
+      "expiresAt": "2025-06-29T01:52:54.307Z"
+    },
+    {
+      "sessionId": "fjx76embaa0f4n",
+      "userId": 1,
+      "expiresAt": "2025-06-29T04:01:33.335Z"
+    },
+    {
+      "sessionId": "hfwa9mmbabvqom",
+      "userId": 1,
+      "expiresAt": "2025-06-29T04:53:54.262Z"
+    },
+    {
+      "sessionId": "8dfa0emf9a26b3",
+      "userId": 1,
+      "expiresAt": "2025-10-07T05:53:58.383Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 10,
+      "userId": 1,
+      "rating": 5,
+      "comment": "great product",
+      "title": "great ",
+      "userName": "aman",
+      "createdAt": "2025-05-30T00:16:25.265Z",
+      "updatedAt": "2025-05-30T00:16:25.265Z"
+    }
+  ],
+  "counters": {
+    "categoryId": 12,
+    "productId": 15,
+    "cartItemId": 9,
+    "orderId": 9,
+    "userId": 2,
+    "reviewId": 2
+  }
+}
