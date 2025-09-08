@@ -25,6 +25,7 @@ ENV NODE_ENV=production
 
 # Copy the built application from the builder stage
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/client/dist ./client/dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./
 
