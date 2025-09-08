@@ -1,0 +1,22 @@
+# Ignore node_modules, as they will be installed within the container
+node_modules
+
+# Ignore build output directory
+dist
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore local development files
+.env
+.replit
+replit.md
+Lacquer_craft
+logo
+attached_assets
+data/images
